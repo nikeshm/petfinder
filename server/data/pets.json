@@ -1,0 +1,74 @@
+[
+    {
+      "id": "1",
+      "type": "dog",
+      "breed": "bulldog",
+      "name": "Leanne",
+      "location": "95050",
+      "age": "5",
+      "picture": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+    },
+    {
+      "id": "1",
+      "type": "dog",
+      "breed": "bulldog",
+      "name": "Larry",
+      "location": "95050",
+      "age": "5",
+      "picture": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+    },
+    {
+        "id": "2",
+        "type": "dog",
+        "breed": "pitbull",
+        "name": "Jeff",
+        "location": "95050",
+        "age": "6",
+        "picture": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+      },
+      {
+        "id": "3",
+        "type": "cat",
+        "breed": "persian",
+        "name": "Doug",
+        "location": "95053",
+        "age": "7",
+        "picture": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+      },
+      {
+        "id": "4",
+        "type": "cat",
+        "breed": "shorthair",
+        "name": "Charles",
+        "location": "95053",
+        "age": "8",
+        "picture": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+      },
+      {
+        "id": "5",
+        "type": "rabbit",
+        "breed": "californian",
+        "name": "Jefferson",
+        "location": "95054",
+        "age": "9",
+        "picture": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+      },
+      {
+        "id": "6",
+        "type": "rabbit",
+        "breed": "english lop",
+        "name": "Frederick",
+        "location": "95054",
+        "age": "1",
+        "picture": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+      },
+      {
+        "id": "7",
+        "type": "rabbit",
+        "breed": "english lop",
+        "name": "Johnson",
+        "location": "95054",
+        "age": "1",
+        "picture": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+      }
+  ]
