@@ -1,15 +1,15 @@
 # Petfinder
 
-This web application will allow you to see all of the adoptable in Santa Clara. The app is currently served by a small express server that holds mock data for several dogs, cats, and rabbits.
+This web application will allow you to see all of the adoptable pets in a given zipcode. The web app is currently served by an Express server that contains sample data about dogs, cats, and rabbits in Santa Clara zipcodes.
 
 ## How to Run
 
-After downloading the project files, open them in your favorite code editor and run the following terminal commands using `npm`.
+After downloading the project files and ensuring you have NodeJS and `npm` installed, run the following terminal commands using `npm`.
 
 ```
 # Install dependencies
 npm install
 
 # Serve on localhost:3000
-npm start
+npm run start
 ```
