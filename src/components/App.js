@@ -8,7 +8,7 @@ function App() {
   const [query, setQuery] = useState([]);
 
   useEffect (() => {
-    fetch(`/users/all?location=${query[0]}&age=${query[1]}&type=${query[3]}&breed=${query[2]}`)
+    fetch(`/pets/all?location=${query[0]}&age=${query[1]}&type=${query[3]}&breed=${query[2]}`)
       .then(res => res.json())
       .then(data => {
         console.table(data)
