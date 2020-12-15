@@ -4,6 +4,8 @@ This web application will allow you to see all of the adoptable in Santa Clara. 
 
 ## How to Run
 
+After downloading the project files, open them in your favorite code editor and run the following terminal commands using `npm`.
+
 ```
 # Install dependencies
 npm install
