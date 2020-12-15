@@ -29,7 +29,7 @@ class Dropdown extends React.Component {
   };
 
 	async componentDidMount() {
-    const res  = await fetch('/users/all');
+    const res  = await fetch('/pets/all');
     const pets = await res.json();
 
     const petType = [];
