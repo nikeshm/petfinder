@@ -12,7 +12,6 @@ function App() {
       .then(res => res.json())
       .then(data => {
         setPets(data);
-        setSubmitted(false);
       })
       .catch(err => console.log(err));
   }, [query]);
