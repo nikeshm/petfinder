@@ -27,7 +27,7 @@ const ImageCard = ({ pet }) => {
           Details 
         </button>
       </div>
-      {activity ? <h1 style={buttonStyle}>{['Aww!', "So adorable!", "The cutest!", "Isn't she adorable?", "He's so cute!"][Math.floor(Math.random() * 5)]}{[' Your future best friend!', " Come and meet your future best friend!", " Your best friend is waiting for you!", " You'll come and see, right?", " Come and adopt me!"][Math.floor(Math.random() * 5)]}</h1> : null}
+  {activity ? <h1 style={buttonStyle}>Their name is {pet.name}, and they are {pet.age} years old.{[' Awww!', ' So cute!', ' Your future best friend!', " Come and meet your future best friend!", " Your best friend is waiting for you!", " You'll come and see, right?"][Math.floor(Math.random() * 5)]}</h1> : null}
     </div>
   )
 }

@@ -6,22 +6,19 @@ import Dropdown from './Dropdown';
 function App() {
   const [pets, setPets] = useState([]);
   const [query, setQuery] = useState([]);
+  const [submitted, setSubmitted] = useState(true);
 
   useEffect (() => {
     fetch(`/pets/all?location=${query[0]}&age=${query[1]}&type=${query[3]}&breed=${query[2]}`)
       .then(res => res.json())
       .then(data => {
-        console.table(data)
-        //setPets(Object.keys(data).map((key) => [Number(key), data[key]]))
-
-      }
-      )
+        setPets(data);
+        setSubmitted(false);
+      })
       .catch(err => console.log(err));
   }, [query]);
 
- 
 
-  //new stuff
   return (
     <div>
       <Header />
@@ -34,19 +31,16 @@ function App() {
           </div>
           
           <div>
-             
+            
+
               <div className="grid grid-cols-3 gap-4">
-                {console.log(pets)}
-                {Object.keys(pets).map(pet => (
+                {pets.map(pet => (
                   <ImageCard key={pet.id} pet={pet} />
                 ))}
               </div>
             
           </div>
         </div>
-        
-
-        
       </div>
     </div>
   );
