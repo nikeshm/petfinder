@@ -6,7 +6,6 @@ import Dropdown from './Dropdown';
 function App() {
   const [pets, setPets] = useState([]);
   const [query, setQuery] = useState([]);
-  const [submitted, setSubmitted] = useState(true);
 
   useEffect (() => {
     fetch(`/pets/all?location=${query[0]}&age=${query[1]}&type=${query[3]}&breed=${query[2]}`)
